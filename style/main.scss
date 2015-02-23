@@ -111,8 +111,8 @@ h1.name {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-bottom: 2px solid #000;
-  -webkit-animation: fade-in .8s 1.2s ease-out normal backwards;
-          animation: fade-in .8s 1.2s ease-out normal backwards;
+  -webkit-animation: fade-in .8s .8s ease-out normal backwards;
+          animation: fade-in .8s .8s ease-out normal backwards;
   
   @media only screen and (max-width: 527px) {
       float: right;
@@ -128,8 +128,8 @@ h1.name {
   font-size: 28px;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
-  -webkit-animation: fade-in 1.8s 2.5s normal backwards;
-          animation: fade-in 1.8s 2.5s normal backwards;
+  -webkit-animation: fade-in 1.8s 2s normal backwards;
+          animation: fade-in 1.8s 2s normal backwards;
 
   @media only screen and (max-width: 699px){
     padding: 0 5rem;
