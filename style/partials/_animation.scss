@@ -1,0 +1,48 @@
+// Animation Keyframes Prefixed
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes $animation-name {
+    @content;
+  }
+  @-moz-keyframes $animation-name {
+    @content;
+  }
+  @keyframes $animation-name {
+    @content;
+  }
+}
+
+// Allows Animation Shorthand for Cleaner CSS File
+// Grabbed from CSS Tricks; still don't quite understand it 
+@mixin animation($animate...) {
+    $max: length($animate);
+    $animations: '';
+
+    @for $i from 1 through $max {
+        $animations: #{$animations + nth($animate, $i)};
+
+        @if $i < $max {
+            $animations: #{$animations + ", "};
+        }
+    }
+    -webkit-animation: $animations;
+       -moz-animation: $animations;
+         -o-animation: $animations;
+            animation: $animations;
+}
+
+
+// Animation Delay
+@mixin animation-delay($time) {
+  -webkit-animation-delay: $time;
+     -moz-animation-delay: $time;
+          animation-delay: $time;
+}
+
+
+// Transforms
+// Scale
+@mixin transform-scale($value) {
+  -webkit-transform: scale($value);
+     -moz-transform: scale($value);
+          transform: scale($value);
+}
