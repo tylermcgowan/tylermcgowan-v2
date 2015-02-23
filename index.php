@@ -7,12 +7,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tyler McGowan</title>
-    <meta name="description" content="">
+    <meta name="description" content="Graphic Designer striving to create meaningful work with a purpose, through a content-focused approach and a love of typography. Believes in asking why, that details matter, and value comes from clarity.">
+    <meta name="keywords" content="Tyler McGowan, Design, Typography, Vancouver, Minimal">
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Tyler McGowan — Graphic Designer" />
+    <meta property="og:url" content="www.tylermcgowan.com" />
+    <meta property="og:description" content="Graphic Designer striving to create meaningful work with a purpose, through a content-focused approach and a love of typography. Believes in asking why, that details matter, and value comes from clarity." />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
 
